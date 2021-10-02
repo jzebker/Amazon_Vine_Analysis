@@ -86,4 +86,4 @@ A broader analysis across multiple categories (other than reviews for video game
 
 An analysis of the video game review data set that includes all star reviews (1-5 not just 5) could possibly yield more useful information.
 
-A deeper, product-level dive into reviews per specific video game may show that certain games or types of games receive different reviews from Vine and non-Vine reviewers.
+**A deeper, product-level dive into reviews per specific video game may show that certain games or types of games receive different reviews from Vine and non-Vine reviewers.**

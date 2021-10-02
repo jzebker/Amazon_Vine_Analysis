@@ -63,6 +63,20 @@ In this project, you’ll have access to approximately 50 datasets. Each one con
 ### Results
 How many Vine reviews and non-Vine reviews were there?
 
+• there were ***94 total Vine reviews*** categorized as helpful
+
+• there were ***40,471 total non-Vine reviews*** categorized as helpful
+
 How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
+• there were ***48 total Vine reviews*** categorized as helpful
+
+• there were ***15,663 total non-Vine reviews*** categorized as helpful
+
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
+• ***51%*** of Vine reviews categorized as helpful were 5-stars
+
+• ***39%*** of non-Vine reviews categorized as helpful were 5-stars
+
+### Summary

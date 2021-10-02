@@ -17,3 +17,35 @@
 
 ## Deliverable 2 - using SQL in pgAdmin
 [Queries](https://github.com/jzebker/Amazon_Vine_Analysis/blob/main/vine_review_analysis.sql)
+
+• vine_table is created
+
+• totalVotes20 table is created from vine_table
+
+    CREATE TABLE totalVotes20 AS
+	SELECT *
+	FROM vine_table
+	WHERE total_votes>=20;
+
+• helpfulReviews table is created - only reviews with >20 votes were considered for helpfulReviews
+    
+    CREATE TABLE helpfulReviews AS
+	SELECT *
+	FROM totalVotes20
+	WHERE CAST(helpful_votes AS FLOAT)/CAST(total_votes AS FLOAT) >=0.5;
+
+• helpfulReviewsVine table is created - only "helpful" reviews were considered for vine
+
+    CREATE TABLE helpfulReviewsVine AS
+	SELECT *
+	FROM helpfulReviews
+	WHERE vine='Y';
+    
+• helpfulReviewsNotVine table is created - only "helpful" reviews were considered for not vine
+
+    CREATE TABLE helpfulReviewsNotVine AS
+	SELECT *
+	FROM helpfulReviews
+	WHERE vine='N';
+
+• requested calculations were performed on reviews deemed "helpful"

@@ -20,6 +20,8 @@
 
 • vine_table is created
 
+<p align="center"><img src="https://github.com/jzebker/Amazon_Vine_Analysis/blob/main/img/d2VineTable.png?raw=true"></p>
+
 • totalVotes20 table is created from vine_table
 
     CREATE TABLE totalVotes20 AS
@@ -49,3 +51,5 @@
 	WHERE vine='N';
 
 • requested calculations were performed on reviews deemed "helpful"
+
+<p align="center"><img src="https://github.com/jzebker/Amazon_Vine_Analysis/blob/main/img/d2VineCalculated.png?raw=true"></p>

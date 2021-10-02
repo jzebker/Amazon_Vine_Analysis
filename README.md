@@ -16,3 +16,4 @@
 • the 4 DataFrames are loaded in pgAdmin in cells 11-14
 
 ## Deliverable 2 - using SQL in pgAdmin
+[Queries](https://github.com/jzebker/Amazon_Vine_Analysis/blob/main/vine_review_analysis.sql)

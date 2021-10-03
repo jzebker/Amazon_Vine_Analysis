@@ -80,7 +80,7 @@ What percentage of Vine reviews were 5 stars? What percentage of non-Vine review
 • ***39%*** of non-Vine reviews categorized as helpful were 5-stars
 
 ### Summary
-For this data set, Vine reviewers left "helpful" 5-star reviews 12% more often than non-Vine reviewers.  The number of Vine reviewers is significantly smaller, but the two populations are different.  In this case and for helpful reviews, Vine reviewers are more likely to leave a 5-star review than non-Vine reviewers.  There appears to be a slight bias.
+***For this data set, Vine reviewers left "helpful" 5-star reviews 12% more often than non-Vine reviewers.  The number of Vine reviewers is significantly smaller, but the two populations are different.  In this case and for helpful reviews, Vine reviewers are more likely to leave a 5-star review than non-Vine reviewers.  There appears to be a slight bias.***
 
 A broader analysis across multiple categories (other than reviews for video games only) may be more fruitful.  It is possible that this discrepancy in 5-star reviews will widen or narrow.
 
